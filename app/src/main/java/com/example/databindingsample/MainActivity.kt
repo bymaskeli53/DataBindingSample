@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     }
     private fun setAdapter() {
-        val todoList = listOf<Todo>(Todo("Read book","29.12.2022"),Todo("go to gym","always")))
+        val todoList = listOf<Todo>(Todo("Read book","29.12.2022"),Todo("go to gym","always"))
         val adapter = TodoAdapter(todoList)
         binding.recyclerview.adapter = adapter
     }
